@@ -27,7 +27,7 @@ This repository follows the [Conventional Commits](https://www.conventionalcommi
 
 ### Commit Message Format
 ```
-type(scope): description [CU-<clickup_task_id>]
+type(scope): description
 ```
 - **type**: Describes the purpose of the change.
 - **scope** (optional): Specifies the affected module or feature.
@@ -46,9 +46,9 @@ type(scope): description [CU-<clickup_task_id>]
 
 ### Example Commits
 ```
-feat(auth): add Google login support [CU-12345]
-fix(api): resolve issue with token expiration [CU-67890]
-chore(deps): update Laravel to 10.x [CU-11223]
+feat(auth): add Google login support
+fix(api): resolve issue with token expiration
+chore(deps): update dependecy version
 ```
 
 ## 3. Raising a Pull Request (PR)
